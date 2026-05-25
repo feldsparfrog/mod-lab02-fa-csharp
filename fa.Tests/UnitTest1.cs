@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Net;
 using fans;
-namespace NET
+namespace fa.Tests
 {
     [TestClass]
     public class UnitTest1
