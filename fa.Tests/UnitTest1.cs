@@ -1,8 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Net;
 using fans;
-namespace fa.Tests
+namespace NET
 {
     [TestClass]
     public class UnitTest1
