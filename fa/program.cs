@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NET;
+
 namespace fans
 {
   public class State
@@ -168,29 +168,7 @@ namespace fans
   {
     static void Main(string[] args)
     {
-      NET.UnitTest1 test = new NET.UnitTest1();
-      test.TestMethod1();
-      test.TestMethod2();
-      test.TestMethod3();
-      test.TestMethod4();
-      test.TestMethod5();
-      test.TestMethod6();
-      test.TestMethod7();
-      test.TestMethod8();
-      test.TestMethod9();
-      test.TestMethod10();
-      test.TestMethod11();
-      test.TestMethod12();
-      test.TestMethod13();
-      test.TestMethod14();
-      test.TestMethod15();
-      test.TestMethod16();
-      test.TestMethod17();
-      test.TestMethod18();
-      test.TestMethod19();
-      test.TestMethod20();
-      test.TestMethod21();
-      Console.WriteLine("Testing successful!\nInput your string:");
+      Console.WriteLine("Input your string:");
       string s = Console.ReadLine();
       FA1 fa1 = new FA1();
       bool? result1 = fa1.Run(s);
