@@ -1,10 +1,9 @@
-using NET;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using NET;
 namespace fans
 {
   public class State
