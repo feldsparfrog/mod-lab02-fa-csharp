@@ -168,7 +168,7 @@ namespace fans
   {
     static void Main(string[] args)
     {
-      UnitTest1 test = new UnitTest1();
+      NET.UnitTest1 test = new NET.UnitTest1();
       test.TestMethod1();
       test.TestMethod2();
       test.TestMethod3();
